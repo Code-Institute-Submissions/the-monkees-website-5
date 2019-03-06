@@ -1,9 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
 
 
+/*......................................................................colours*/
 
+.navbar{
+    background-color: rgb(255, 255, 204); 
+    padding-top: 10px;
+}
 
+.nav-item{
+    font-size: 25px;
+    font-weight:200;
+    font-family: "Exo", sans-serif;
+    color: #fafafa;
+    padding:0;
+    margin:0;
+    text-align: center;
+    border-radius: 15px; /*rounds the corners of the border*/
+    width:100%;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000; /*change colour of nav bar text*/
+    white-space: nowrap;
+}
 
+#nav-bar{
+    margin: 0;
+}
 
+#nav-bar li{
+    padding: 0;
+}
+.nav-item span{
+    width: 100%;
+}
+
+.nav-color-home{
+        background-color: #ffff00;
+}
+
+.nav-color-history{
+        background-color: #ff0000;
+}
+
+.nav-color-music{
+        background-color: #3333ff;
+}
+
+.nav-color-services{
+        background-color: #008000;
+}
+
+.nav-color-contact{
+        background-color: #ffa500;
+}
+
+/*..........................................hover-css*/
+
+.hvr-sweep-to-bottom:before{
+    background: rgba(0,0,0,0.3);
+    height:35px;
+    border-radius: 15px; /*rounds the corners of the border while hovered on*/
+
+}
 
 
 /*......................................................................headings*/
@@ -26,7 +85,8 @@ footer{
 
 .list-item {
     list-style: none;
-    margin: 0 0 5px 0;
+    margin-bottom: 5px;
+    
 }
 .list-item a{
     text-decoration: none;
@@ -34,7 +94,6 @@ footer{
 
 .subscribe-button{
     margin: 0 0 10px 0;
-
 }
 
 .uppercase-text{
@@ -69,4 +128,18 @@ footer{
 }
 .footer-mailing{
     text-align: center;   
+}
+
+/*..........................................Media Queries*/
+
+@media (min-width:992px){
+    #nav-bar li{
+        margin-right: 5px;
+    }
+}
+
+@media (max-width:600px){
+    .list-item {
+        margin-top: 5px;
+    }
 }
