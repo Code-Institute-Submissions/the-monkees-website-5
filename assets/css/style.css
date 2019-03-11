@@ -47,10 +47,19 @@ h2{
 
 .hvr-sweep-to-bottom:before{
     background: rgba(0,0,0,0.3);
-    height:40px;
+    height:28px;
     border-radius: 20px; /*rounds the corners of the border while hovered on*/
     
 }
+
+/*..........................................images*/
+
+.image-size{
+        height: 200px;
+        width: 300px;
+    }
+
+
 
 /*..........................................nav bar*/
 
@@ -69,6 +78,7 @@ h2{
 }
 .navbar{
     padding-top: 10px;
+    margin-bottom: 0;
 }
 #nav-bar{
     margin: 0;
@@ -82,9 +92,7 @@ h2{
 }
 /*......................................................................section*/
 
-.main-section{
-    height:1000px;
-}
+
 
 .mailing-list{
     text-align: center;
@@ -175,5 +183,19 @@ footer{
     .hvr-sweep-to-bottom:before{
         height:21px;
     }
+    h1{
+    font-family: Exo, sans-serif;
+    margin-top: 0;
+    }
+    .image-size{
+        height: 150px;
+        width: 150px;
+    }
+    input[type="text"] {
+    width:250px;
+    position: relative;
+    display: inline-block;
+    margin : 0 auto;
+}
     
 }
