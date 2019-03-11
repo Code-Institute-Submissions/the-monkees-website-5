@@ -1,29 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
 
 
-/*......................................................................colours*/
+/*......................................................................colours & backgrounds*/
 
+.bg-body{
+    background: url("../images/flower-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .navbar{
     background-color: rgb(255, 255, 204); 
-    padding-top: 10px;
 }
 
+.nav-color-home{
+        background-color: #ffff00;
+}
+.nav-color-history{
+        background-color: #ff0000;
+}
+.nav-color-music{
+        background-color: #3333ff;
+}
+.nav-color-services{
+        background-color: #008000;
+}
+.nav-color-contact{
+        background-color: #ffa500;
+}
+.main-section-bg{
+    background-color: #fafafa;
+}
+
+/*..........................................headings*/
+
+h1{
+    font-family: Exo, sans-serif;
+}
+
+h2{
+    font-family: Exo, sans-serif;
+    font-weight: 300;
+}
+
+
+/*..........................................hover-css*/
+
+.hvr-sweep-to-bottom:before{
+    background: rgba(0,0,0,0.3);
+    height:40px;
+    border-radius: 20px; /*rounds the corners of the border while hovered on*/
+    
+}
+
+/*..........................................nav bar*/
+
 .nav-item{
-    font-size: 25px;
-    font-weight:200;
+    font-size: 20px;
+    font-weight:300;
     font-family: "Exo", sans-serif;
-    color: #fafafa;
     padding:0;
     margin:0;
     text-align: center;
-    border-radius: 15px; /*rounds the corners of the border*/
+    border-radius: 20px; /*rounds the corners of the border*/
     width:100%;
     text-decoration: none;
-    font-weight: 300;
     color: #000000; /*change colour of nav bar text*/
     white-space: nowrap;
 }
-
+.navbar{
+    padding-top: 10px;
+}
 #nav-bar{
     margin: 0;
 }
@@ -34,59 +80,37 @@
 .nav-item span{
     width: 100%;
 }
+/*......................................................................section*/
 
-.nav-color-home{
-        background-color: #ffff00;
+.main-section{
+    height:1000px;
 }
 
-.nav-color-history{
-        background-color: #ff0000;
+.mailing-list{
+    text-align: center;
+}
+input[type="text"] {
+    width:600px;
+    position: relative;
+    display: inline-block;
+    margin : 0 auto;
 }
 
-.nav-color-music{
-        background-color: #3333ff;
+form{
+    padding-bottom: 5px;
 }
-
-.nav-color-services{
-        background-color: #008000;
-}
-
-.nav-color-contact{
-        background-color: #ffa500;
-}
-
-/*..........................................hover-css*/
-
-.hvr-sweep-to-bottom:before{
-    background: rgba(0,0,0,0.3);
-    height:35px;
-    border-radius: 15px; /*rounds the corners of the border while hovered on*/
-
-}
-
-
-/*......................................................................headings*/
-.bg-body{
-    background: url("../images/flower-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /*..........................................footer*/
-
-
-
 footer{
     background-color: #494747;
     color: #fafafa;
     min-height: 120px;
     margin:0;
+    position: relative;
 }
 
 .list-item {
     list-style: none;
     margin-bottom: 5px;
-    
 }
 .list-item a{
     text-decoration: none;
@@ -106,7 +130,7 @@ footer{
     padding: 12px 0px;
     border-radius: 50%;
     font-size: 23px;
-    line-height: 8px;
+    line-height: 3px;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
@@ -142,4 +166,14 @@ footer{
     .list-item {
         margin-top: 5px;
     }
+    
+    .nav-item{
+        font-size: 15px;
+        line-height: 21px;
+
+    }
+    .hvr-sweep-to-bottom:before{
+        height:21px;
+    }
+    
 }
