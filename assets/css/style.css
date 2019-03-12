@@ -107,6 +107,17 @@ input[type="text"] {
 form{
     padding-bottom: 5px;
 }
+
+.more-info{
+    vertical-align: middle;
+}
+
+/*......................................................................Links*/
+
+
+
+
+
 /*..........................................footer*/
 footer{
     background-color: #494747;
@@ -161,6 +172,14 @@ footer{
 .footer-mailing{
     text-align: center;   
 }
+
+/*..........................................Audio Files*/
+
+.audio-file{
+    vertical-align: middle;
+}
+
+
 
 /*..........................................Media Queries*/
 
