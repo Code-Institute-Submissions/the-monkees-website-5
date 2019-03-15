@@ -33,12 +33,11 @@
 
 /*..........................................headings*/
 
-h1{
+h1, h2, h3{
     font-family: Exo, sans-serif;
 }
 
 h2{
-    font-family: Exo, sans-serif;
     font-weight: 300;
 }
 
@@ -98,7 +97,7 @@ h2{
 
 
 
-.mailing-list{
+.text-centered{
     text-align: center;
 }
 input[type="text"] {
@@ -112,11 +111,22 @@ form{
     padding-bottom: 5px;
 }
 
+p{
+    font-family: "Exo", sans-serif;
+}
 
-/*......................................................................Links*/
+/*......................................................................forms*/
 
+.contact-form{
+    padding-top: 10px;
+    margin:0 auto;
+    max-width: 70%;
+    left:10%;
+}
 
-
+.contact-text-field{
+    max-width: 250px;
+}
 
 
 /*..........................................footer*/
@@ -202,18 +212,23 @@ footer{
         height:21px;
     }
     h1{
-    font-family: Exo, sans-serif;
-    margin-top: 0;
+        font-family: Exo, sans-serif;
+        margin-top: 0;
     }
     .cover-image{
         height: 150px;
         width: 150px;
     }
     input[type="text"] {
-    width:250px;
-    position: relative;
-    display: inline-block;
-    margin : 0 auto;
+        width:250px;
+        position: relative;
+        display: inline-block;
+        margin : 0 auto;
     }
-    
+    .contact-form{
+        padding-top: 10px;
+        margin:0 auto;
+        max-width: 70%;
+        left:0;
+    }
 }
