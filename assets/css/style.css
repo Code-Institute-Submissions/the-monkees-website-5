@@ -50,12 +50,21 @@ h2{
     border-radius: 20px; /*rounds the corners of the border while hovered on*/
     
 }
+/*..........................................videos*/
+
+.history-vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*..........................................images*/
 
 .cover-image{
-        height: 200px;
-        width: 300px;
+        height: 150px;
+        width: 150px;
+        float:left;
+        margin-right: 20px;
     }
 
 .promo-image{
@@ -63,6 +72,37 @@ h2{
     width: 300px;
 }
 
+.success-image{
+    height: 150px;
+    width: 150px;
+    margin:5px;
+}
+
+.band-image{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.full-band h3{
+    text-align: center;
+}
+
+.full-band img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*..........................................nav bar*/
 
@@ -128,6 +168,50 @@ p{
     max-width: 250px;
 }
 
+/*..........................................timeline*/
+
+.history-items{
+    margin-bottom: 30px;
+}
+.history-date{
+    padding:5px 5px 0px 5px;
+    position: relative;
+    color:#000000;
+    border-left: 3px solid;
+}
+
+.history-date p{
+    padding:0;
+    margin: 0;
+}
+
+.history-date::before{
+    content:attr(dates);
+    position: absolute;
+    left:2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding:0;
+    margin:0;
+}
+
+.history-date::after{
+    width:20px;
+    height:20px;
+    display:block;
+    top:10px;
+    position: absolute;
+    left:-15px;
+    border-radius: 12px;
+    content: '';
+    background: #000000;
+}
+.bottom{
+    margin: 10px;
+}
 
 /*..........................................footer*/
 footer{
@@ -218,6 +302,7 @@ footer{
     .cover-image{
         height: 150px;
         width: 150px;
+        float: left;
     }
     input[type="text"] {
         width:250px;
@@ -230,5 +315,8 @@ footer{
         margin:0 auto;
         max-width: 70%;
         left:0;
+    }
+    .full-band h1{
+        text-align: center;
     }
 }
