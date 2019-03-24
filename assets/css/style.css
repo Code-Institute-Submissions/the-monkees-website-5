@@ -9,20 +9,20 @@
     background-size: cover;
 }
 .navbar{
-    background-color: rgb(255, 255, 204); 
+    background-color: #494747; 
 }
 
 .nav-color-home{
         background-color: #ffff00;
 }
 .nav-color-history{
-        background-color: #ff0000;
+        background-color: #FF3C02;
 }
 .nav-color-music{
-        background-color: #3333ff;
+        background-color: #33FFE0;
 }
 .nav-color-services{
-        background-color: #008000;
+        background-color: #03F603;
 }
 .nav-color-contact{
         background-color: #ffa500;
@@ -30,6 +30,12 @@
 .main-section-bg{
     background-color: #fafafa;
 }
+/*..........................................miscellaneous*/
+
+.white-space{
+    padding-bottom: 30px;
+}
+
 
 /*..........................................headings*/
 
@@ -39,6 +45,34 @@ h1, h2, h3{
 
 h2{
     font-weight: 300;
+}
+
+.heading-text h1, h2{
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.heading-text h1{
+    padding-top: 40px;
+}
+
+/*..........................................social media links*/
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.fa-youtube:before {
+    content: "\f167";
+    font-size: 18px;
+}
+.fa-twitter:before {
+    content: "\f099";
+    font-size: 18px;
+}
+.fa-facebook:before {
+    content: "\f09a";
+    font-size: 18px;
 }
 
 
@@ -59,6 +93,14 @@ h2{
 }
 
 /*..........................................images*/
+
+.logo-image img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin:5px auto 5px auto;
+    padding-right: 15px;
+}
 
 .cover-image{
         height: 150px;
@@ -82,15 +124,10 @@ h2{
     height: 150px;
     width: 150px;
     display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:5px auto 5px auto;
 }
 
-
-
-.full-band h3{
+.full-band h3, h4{
     text-align: center;
 }
 
@@ -98,10 +135,7 @@ h2{
     height: 150px;
     width: 150px;
     display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:5px auto 5px auto;
 }
 
 /*..........................................nav bar*/
@@ -116,7 +150,7 @@ h2{
     border-radius: 20px; /*rounds the corners of the border*/
     width:100%;
     text-decoration: none;
-    color: #000000; /*change colour of nav bar text*/
+    color: #282828; /*change colour of nav bar text*/
     white-space: nowrap;
 }
 .navbar{
@@ -140,7 +174,7 @@ h2{
 .text-centered{
     text-align: center;
 }
-input[type="text"] {
+input[type="email"] {
     width:600px;
     position: relative;
     display: inline-block;
@@ -224,7 +258,6 @@ footer{
 
 .list-item {
     list-style: none;
-    margin-bottom: 5px;
 }
 .list-item a{
     text-decoration: none;
@@ -237,10 +270,13 @@ footer{
 .uppercase-text{
     text-transform: uppercase;
 }
+.social-media li{
+    padding-bottom: 5px;
+}
 
 .social-media li a i{
-    width: 35px;
-    height: 35px;
+    width: 31px;
+    height: 30px;
     padding: 12px 0px;
     border-radius: 50%;
     font-size: 23px;
@@ -304,7 +340,7 @@ footer{
         width: 150px;
         float: left;
     }
-    input[type="text"] {
+    input[type="email"] {
         width:250px;
         position: relative;
         display: inline-block;
@@ -316,7 +352,13 @@ footer{
         max-width: 70%;
         left:0;
     }
-    .full-band h1{
+    .full-band h1, h4{
         text-align: center;
+    }
+    .services-image{
+        display: none;
+    }
+    .logo-image{
+        display: none;
     }
 }
