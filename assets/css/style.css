@@ -31,11 +31,30 @@
     background-color: #fafafa;
 }
 /*..........................................miscellaneous*/
+iframe{
+    border:0;
+}
+.services-image{
+    text-align: center;
+}
+
+.services-image img{
+    height: 400px;
+    width: 300px;
+}
+row{
+    padding:0;
+}
 
 .white-space{
     padding-bottom: 30px;
 }
 
+.services a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Exo, sans-serif;
+}
 
 /*..........................................headings*/
 
@@ -54,6 +73,41 @@ h2{
 }
 .heading-text h1{
     padding-top: 40px;
+}
+.heading-center h3{
+    text-align: center;
+}
+.heading-align h3{
+    text-align: center;
+}
+
+.heading-align p{
+    text-align: center;
+}
+
+.heading-align a{
+    text-align: center;
+}
+figure{
+    text-align: center;
+}
+.tracks-align h1{
+    text-align: center;
+}
+.service-promo h1{
+    text-align: center;
+}
+.services h1{
+    text-align: center;
+}
+.services h3{
+    text-align: center;
+}
+.cover-image h3{
+    text-align: center;
+}
+.services p{
+    text-align: center;
 }
 
 /*..........................................social media links*/
@@ -95,11 +149,12 @@ ol, ul {
 /*..........................................images*/
 
 .logo-image img{
-    height: 200px;
-    width: 200px;
+    /*height: 150px;
+    width: 150px;*/
+    height:100%;
+    width: 100%;
     display: block;
-    margin:5px auto 5px auto;
-    padding-right: 15px;
+    margin:30px auto 10px auto;
 }
 
 .cover-image{
@@ -108,11 +163,8 @@ ol, ul {
         float:left;
         margin-right: 20px;
     }
+    
 
-.promo-image{
-    height: 400px;
-    width: 300px;
-}
 
 .success-image{
     height: 150px;
@@ -127,7 +179,7 @@ ol, ul {
     margin:5px auto 5px auto;
 }
 
-.full-band h3, h4{
+.full-band h4, h5{
     text-align: center;
 }
 
@@ -157,6 +209,10 @@ ol, ul {
     padding-top: 10px;
     margin-bottom: 0;
 }
+.navbar ul li a{
+    text-decoration: none;
+}
+
 #nav-bar{
     margin: 0;
 }
@@ -168,19 +224,25 @@ ol, ul {
     width: 100%;
 }
 /*......................................................................section*/
-
-
-
 .text-centered{
     text-align: center;
 }
+.tracks-align p{
+    text-align: center;
+}
+
 input[type="email"] {
     width:600px;
     position: relative;
     display: inline-block;
     margin : 0 auto;
 }
-
+input[type="text"] {
+    width:600px;
+    position: relative;
+    display: inline-block;
+    margin : 0 auto;
+}
 form{
     padding-bottom: 5px;
 }
@@ -198,8 +260,11 @@ p{
     left:10%;
 }
 
-.contact-text-field{
+.contact-input-field{
     max-width: 250px;
+}
+.contact-form ul li{
+    list-style: none;
 }
 
 /*..........................................timeline*/
@@ -238,13 +303,18 @@ p{
     display:block;
     top:10px;
     position: absolute;
-    left:-15px;
+    left:-12px;
     border-radius: 12px;
     content: '';
     background: #000000;
 }
 .bottom{
     margin: 10px;
+}
+
+.history-date h4{
+    text-align: left;
+    padding-left: 10px;
 }
 
 /*..........................................footer*/
@@ -254,6 +324,11 @@ footer{
     min-height: 120px;
     margin:0;
     position: relative;
+}
+.footer-space{
+    padding-top: 25px;
+    margin-right: 0;
+    padding-right: 0;
 }
 
 .list-item {
@@ -318,9 +393,16 @@ footer{
     }
 }
 
-@media (max-width:600px){
+@media (max-width:991px){
+
     .list-item {
         margin-top: 5px;
+    }
+    .full-band img{
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin:5px auto 5px auto;
     }
     
     .nav-item{
@@ -335,11 +417,7 @@ footer{
         font-family: Exo, sans-serif;
         margin-top: 0;
     }
-    .cover-image{
-        height: 150px;
-        width: 150px;
-        float: left;
-    }
+    
     input[type="email"] {
         width:250px;
         position: relative;
@@ -352,9 +430,8 @@ footer{
         max-width: 70%;
         left:0;
     }
-    .full-band h1, h4{
-        text-align: center;
-    }
+   
+   
     .services-image{
         display: none;
     }
