@@ -155,12 +155,6 @@ ol, ul {
         margin-right: auto;
 }
 
-iframe{
-        width: 280px;
-        height: 160px;
-        border:0;
-    }
-
 
 /*..........................................images*/
 
@@ -358,8 +352,6 @@ footer{
 .footer-form input{
     width:100%;
 }
-
-
 
 .list-item {
     list-style: none;
@@ -564,7 +556,7 @@ footer{
 }
 @media (max-width:350px){
     
-    iframe{
+    .youtube-video{
         height: 160px;
         width: 175px;
     }
