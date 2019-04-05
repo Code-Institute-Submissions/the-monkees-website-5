@@ -460,6 +460,9 @@ footer{
     .footer-space h5{
         font-size:10px;
     }
+    .flex-layout{
+        display:flex;
+    }
     .footer-space ul{
         font-size:8px;
     }
