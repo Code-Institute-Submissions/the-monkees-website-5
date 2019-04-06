@@ -457,7 +457,10 @@ footer{
 }
 
 @media (max-width:991px){
-    
+    .youtube-video{
+        height: 200px;
+        width: 250px;
+    }
     .flex-layout{
         display:flex;
     }
@@ -521,8 +524,8 @@ footer{
         left:0;
     }
    .success-image{
-        height: 100px;
-        width: 100px;
+        height: 200px;
+        width: 200px;
         margin:5px;
     }
    
