@@ -457,24 +457,25 @@ footer{
 }
 
 @media (max-width:991px){
-    .footer-space h5{
-        font-size:10px;
-    }
+    
     .flex-layout{
         display:flex;
     }
     .footer-space ul{
-        font-size:8px;
+        font-size:16px;
     }
     .footer-social {
-        width: 49%;
+        width: 60%;
     }
 
     .site-map {
-        width: 49%;
+        width: 40%;
+    }
+    .site-map h5 {
+        text-align: left;
     }
     .footer-social h5{
-        text-align: left;
+        text-align: center;
     }
     
     .list-item {
@@ -488,8 +489,9 @@ footer{
     }
     
     .nav-item{
-        font-size: 15px;
+        font-size: 16px;
         line-height: 21px;
+        
 
     }
     .hvr-sweep-to-bottom:before{
@@ -536,7 +538,7 @@ footer{
         font-size: 25px;
     }
     .nav-item{
-        font-size: 10px;
+        font-size: 16px;
         font-weight:600;
     }
     .footer-form{
@@ -548,7 +550,7 @@ footer{
         
 }
     .contact-form ul li{
-        font-size: 10px;
+        font-size: 16px;
         margin-left: -40%;
     }
     
