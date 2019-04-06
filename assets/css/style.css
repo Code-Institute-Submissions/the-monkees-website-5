@@ -272,7 +272,7 @@ p{
 .contact-form{
     padding-top: 10px;
     margin:0 auto;
-    max-width: 70%;
+    max-width: 75%;
     left:10%;
 }
 
@@ -517,7 +517,7 @@ footer{
     .contact-form{
         padding-top: 10px;
         margin:0 auto;
-        max-width: 70%;
+        max-width: 100%;
         left:0;
     }
    .success-image{
@@ -547,10 +547,10 @@ footer{
         width:100%;
         height:100%;
         
-}
+    }
     .contact-form ul li{
         font-size: 16px;
-        margin-left: -40%;
+        margin-left: -22%;
     }
     
     .footer-social ul li b{
