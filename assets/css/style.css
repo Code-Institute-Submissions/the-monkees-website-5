@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
 
 
-/*......................................................................colours & backgrounds*/
+/*..........................colours & backgrounds*/
 
 .bg-body{
     background: url("../images/flower-background.jpg");
@@ -11,7 +11,6 @@
 .navbar{
     background-color: #494747; 
 }
-
 .nav-color-home{
         background-color: #ffff00;
 }
@@ -30,34 +29,19 @@
 .main-section-bg{
     background-color: #fafafa;
 }
-/*..........................................miscellaneous*/
 
-.services-image{
-    text-align: center;
-}
+/*...........................miscellaneous*/
 
-.services-image img{
-    height: 400px;
-    width: 300px;
-}
 .row{
     padding:0;
     margin:0;
 }
-
 .container-fluid{
     padding:0;
     margin:0;
 }
-
 .white-space{
     padding-bottom: 50px;
-}
-
-.services a{
-    text-decoration: none;
-    font-size: 25px;
-    font-family: Exo, sans-serif;
 }
 
 /*..........................................headings*/
@@ -65,11 +49,9 @@
 h1, h2, h3{
     font-family: Exo, sans-serif;
 }
-
 h2{
     font-weight: 300;
 }
-
 .heading-text h1, h2{
     text-align: center;
     text-transform: uppercase;
@@ -84,19 +66,11 @@ h2{
 .heading-align h3{
     text-align: center;
 }
-
 .heading-align p{
     text-align: center;
 }
-
 .heading-align a{
     text-align: center;
-}
-figure{
-    text-align: center;
-}
-audio{
-    width:75%;
 }
 .tracks-align h1{
     text-align: center;
@@ -113,11 +87,32 @@ audio{
 .cover-image h3{
     text-align: center;
 }
-.services p{
+.full-band h4, h5{
     text-align: center;
 }
 
+/*..........................................text*/
+
+.services p{
+    text-align: center;
+}
+.services a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Exo, sans-serif;
+}
+.text-centered{
+    text-align: center;
+}
+.uppercase-text{
+    text-transform: uppercase;
+}
+p{
+    font-family: "Exo", sans-serif;
+}
+
 /*..........................................social media links*/
+
 ol, ul {
     margin-top: 0;
     margin-bottom: 0px;
@@ -136,15 +131,14 @@ ol, ul {
     font-size: 18px;
 }
 
-
 /*..........................................hover-css*/
 
 .hvr-sweep-to-bottom:before{
     background: rgba(0,0,0,0.3);
     height:28px;
     border-radius: 20px; /*rounds the corners of the border while hovered on*/
-    
 }
+
 /*..........................................videos*/
 
 .youtube-video{
@@ -155,9 +149,15 @@ ol, ul {
         margin-right: auto;
 }
 
-
 /*..........................................images*/
 
+.services-image{
+    text-align: center;
+}
+.services-image img{
+    height: 400px;
+    width: 300px;
+}
 .logo-image img{
     /*height: 150px;
     width: 150px;*/
@@ -166,31 +166,23 @@ ol, ul {
     display: block;
     margin:30px auto 10px auto;
 }
-
 .cover-image{
         height: 150px;
         width: 150px;
         float:left;
         margin-right: 20px;
     }
-
 .success-image{
     height: 150px;
     width: 150px;
     margin:5px;
 }
-
 .band-image{
     height: 150px;
     width: 150px;
     display: block;
     margin:5px auto 5px auto;
 }
-
-.full-band h4, h5{
-    text-align: center;
-}
-
 .full-band img{
     height: 150px;
     width: 150px;
@@ -220,25 +212,33 @@ ol, ul {
 .navbar ul li a{
     text-decoration: none;
 }
-
 #nav-bar{
     margin: 0;
 }
-
 #nav-bar li{
     padding: 0;
 }
 .nav-item span{
     width: 100%;
 }
-/*......................................................................section*/
-.text-centered{
-    text-align: center;
-}
-.tracks-align p{
-    text-align: center;
-}
 
+/*......................................................................forms*/
+
+form{
+    padding-bottom: 5px;
+}
+.contact-form{
+    padding-top: 10px;
+    margin:0 auto;
+    max-width: 75%;
+    left:10%;
+}
+.contact-input-field{
+    max-width: 250px;
+}
+.contact-form ul li{
+    list-style: none;
+}
 input[type="email"] {
     width:600px;
     position: relative;
@@ -250,37 +250,6 @@ input[type="text"] {
     position: relative;
     display: inline-block;
     margin : 0 auto;
-}
-form{
-    padding-bottom: 5px;
-}
-
-p{
-    font-family: "Exo", sans-serif;
-}
-.site-map{
-    text-align: left;
-}
-.site-map ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-
-/*......................................................................forms*/
-
-.contact-form{
-    padding-top: 10px;
-    margin:0 auto;
-    max-width: 75%;
-    left:10%;
-}
-
-.contact-input-field{
-    max-width: 250px;
-}
-.contact-form ul li{
-    list-style: none;
 }
 
 /*..........................................timeline*/
@@ -294,12 +263,10 @@ p{
     color:#000000;
     border-left: 3px solid;
 }
-
 .history-date p{
     padding:0;
     margin: 0;
 }
-
 .history-date::before{
     content:attr(dates);
     position: absolute;
@@ -312,7 +279,6 @@ p{
     padding:0;
     margin:0;
 }
-
 .history-date::after{
     width:20px;
     height:20px;
@@ -324,22 +290,26 @@ p{
     content: '';
     background: #000000;
 }
-.bottom{
-    margin: 10px;
-}
-
 .history-date h4{
     text-align: left;
     padding-left: 10px;
 }
 
 /*..........................................footer*/
+
 footer{
     background-color: #494747;
     color: #fafafa;
     min-height: 120px;
     margin:0;
     position: relative;
+}
+.site-map{
+    text-align: left;
+}
+.site-map ul {
+    padding: 0;
+    list-style-type: none;
 }
 .footer-space h5{
     text-align: left;
@@ -352,29 +322,21 @@ footer{
 .footer-form input{
     width:100%;
 }
-
 .list-item {
     list-style: none;
 }
 .list-item a{
     text-decoration: none;
 }
-
 .subscribe-button{
     margin: 0 0 10px 0;
-}
-
-.uppercase-text{
-    text-transform: uppercase;
 }
 .social-media{
     text-align: center;
 }
-
 .social-media li{
     padding-bottom: 5px;
 }
-
 .social-media li a i{
     width: 31px;
     height: 30px;
@@ -393,7 +355,6 @@ footer{
 .social-media li a i:hover{
     color:#FFFF00;
 }
-
 .footer-social li a i{
     width: 31px;
     height: 30px;
@@ -412,29 +373,24 @@ footer{
 .footer-social li a i:hover{
     color:#FFFF00;
 }
-
 .footer-social li{
     padding-bottom: 5px;
 }
-
 .footer-social h5{
     text-align: center;
 }
-
 .footer-social{
     display: inline-block;
 }
 .site-map{
     display: inline-block;
 }
-
 .footer-form{
     margin:0 auto;
 }
 .footer-form h5{
     text-align: center;
 }
-
 .form-input{
     margin: 0 0 10px 0;
 }
@@ -444,66 +400,79 @@ footer{
 
 /*..........................................Audio Files*/
 
-
-
-
+figure{
+    text-align: center;
+}
+audio{
+    width:75%;
+}
+.tracks-align p{
+    text-align: center;
+}
 
 /*..........................................Media Queries*/
 
 @media (min-width:992px){
+    
+    /*..........................................media queries - nav bar*/
+    
     #nav-bar li{
         margin-right: 5px;
     }
 }
 
 @media (max-width:991px){
+    
+    /*..........................................media queries - headings*/
+    
+    h1{
+        font-family: Exo, sans-serif;
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    /*..........................................media queries - videos*/
+    
     .youtube-video{
         height: 200px;
         width: 250px;
     }
-    .flex-layout{
-        display:flex;
-    }
-    .footer-space ul{
-        font-size:16px;
-    }
-    .footer-social {
-        width: 60%;
-    }
-    .site-map {
-        width: 40%;
-    }
-    .site-map h5 {
-        text-align: left;
-    }
-    .footer-social h5{
-        text-align: center;
-    }
     
-    .list-item {
-        margin-top: 5px;
-    }
+    /*..........................................media queries - images*/
+    
     .full-band img{
         height: 100px;
         width: 100px;
         display: block;
         margin:5px auto 5px auto;
     }
+    .success-image{
+        height: 200px;
+        width: 200px;
+        margin:5px;
+    }
+    .services-image{
+        display: none;
+    }
+    .logo-image{
+        display: none;
+    }
+    
+    /*..........................................media queries - nav bar*/
     
     .nav-item{
         font-size: 16px;
         line-height: 21px;
-        
-
     }
     .hvr-sweep-to-bottom:before{
         height:21px;
     }
-    h1{
-        font-family: Exo, sans-serif;
-        margin-top: 0;
-        text-align: center;
+    .nav-item{
+        font-size: 16px;
+        font-weight:600;
     }
+    
+    /*..........................................media queries - forms*/
     
     input[type="email"] {
         width:100%;
@@ -523,46 +492,50 @@ footer{
         max-width: 100%;
         left:0;
     }
-   .success-image{
-        height: 200px;
-        width: 200px;
-        margin:5px;
-    }
-   
-    .services-image{
-        display: none;
-    }
-    .logo-image{
-        display: none;
-    }
-    .tracks-align h1{
-        text-align: center;
-        font-size: 25px;
-    }
-    .nav-item{
-        font-size: 16px;
-        font-weight:600;
-    }
     .footer-form{
         display: none;
-    }
-    .services img{
-        width:100%;
-        height:100%;
-        
     }
     .contact-form ul li{
         font-size: 16px;
         margin-left: -22%;
     }
     
+    /*..........................................media queries - footer*/
+    
+    .flex-layout{
+        display:flex;
+    }
+    .footer-space ul{
+        font-size:16px;
+    }
+    .footer-social {
+        width: 60%;
+    }
+    .site-map {
+        width: 40%;
+    }
+    .site-map h5 {
+        text-align: left;
+    }
+    .footer-social h5{
+        text-align: center;
+    }
+    .list-item {
+        margin-top: 5px;
+    }
     .footer-social ul li b{
         display:none;
     }
     
+    /*..........................................media queries - Audio Files*/
+    
+    .tracks-align h1{
+        text-align: center;
+        font-size: 25px;
+    }
 }
 @media (max-width:350px){
-    
+    /*..........................................media queries - videos*/
     .youtube-video{
         height: 200px;
         width: 250px;
