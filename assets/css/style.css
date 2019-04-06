@@ -454,6 +454,10 @@ audio{
     .services-image{
         display: none;
     }
+    
+    .services img{
+        width:100%;            
+    }
     .logo-image{
         display: none;
     }
