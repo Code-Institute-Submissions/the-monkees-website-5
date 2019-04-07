@@ -67,17 +67,17 @@ them so that I can listen to them on the go
 
 ### Site Maps
 #### Desktop
-!(assets/wireframes/index.html.png "index.html page for desktop view")
-!(assets/wireframes/history.html.png "history.html page for desktop view")
-!(assets/wireframes/music.html.png "music.html page for desktop view")
-!(assets/wireframes/services.html.png "services.html page for desktop view")
-!(assets/wireframes/contact.html.png "contact.html page for desktop view")
+!([desktop view index.html]/assets/wireframes/index.html.png "index.html page for desktop view")
+!([desktop view history.html]/assets/wireframes/history.html.png "history.html page for desktop view")
+!([desktop view music.html]/assets/wireframes/music.html.png "music.html page for desktop view")
+!([desktop view services.html]/assets/wireframes/services.html.png "services.html page for desktop view")
+!([desktop view contact.html]/assets/wireframes/contact.html.png "contact.html page for desktop view")
 #### Mobile
-!(assets/wireframes/index.html.(Mobile).png "index.html page for mobile view")
-!(assets/wireframes/history.html.(Mobile).png "history.html page for mobile view")
-!(assets/wireframes/music.html.(Mobile).png "music.html page for mobile view")
-!(assets/wireframes/services.(Mobile).html.png "services.html page for mobile view")
-!(assets/wireframes/contact.(Mobile).html.png "contact.html page for mobile view")
+!([mobile view index.html]/assets/wireframes/index.html.(Mobile).png "index.html page for mobile view")
+!([mobile view history.html]/assets/wireframes/history.html.(Mobile).png "history.html page for mobile view")
+!([mobile view music.html]/assets/wireframes/music.html.(Mobile).png "music.html page for mobile view")
+!([mobile view services.html]/assets/wireframes/services.(Mobile).html.png "services.html page for mobile view")
+!([mobile view contact.html]/assets/wireframes/contact.(Mobile).html.png "contact.html page for mobile view")
 
 ## Features
 
