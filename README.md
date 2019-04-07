@@ -217,7 +217,9 @@ parties" and verify it brings you to contact page
 to the home page
 
 ## Deployment
-
+This project was deployed to GitHub Pages using the following steps 
+- create a GitHub account
+- 
 
 
 ## Credits
