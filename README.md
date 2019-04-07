@@ -42,25 +42,42 @@ on all of their social media.
 
 ### User Stories
 #### New Potential Fans
-- 
-- 
-- 
-- 
-- 
+- As a website visitor and potential fan, I want to have access to multimedia content, 
+so I can play it while I am visiting the website to see if I like the band
+- As a website visitor and potential fan, I want to have access to upcoming gigs and 
+concerts, so I can follow every single step of the band and maybe see them live
+- As a website visitor and potential fan, I want to be able to subscribe to a 
+mailing list, so I can get personalised content about the band
+- As a website visitor and potential fan, I want to contact the band and check 
+pricing, so I can arrange a gig for any personal occasion 
+- As a website visitor and potential fan, I want to get access to the band social 
+media, so I can follow them closer across social networks
 
 #### Existing Fans
-- 
-- 
-- 
-- 
-- 
+- As an existing fan, I would like to find out more about The Monkees history so
+that I can get to know them better
+- As an existing fan, I would like to find out if The Monkees have any upcoming 
+concerts near me so that I can see them live
+- As an existing fan, I would like to follow them on social media so that I can 
+keep up to date with their latest news
+- As an existing fan, I would like to contact them to see if they will be able to
+play at my companies upcoming christmas party
+- As an existing fan, I would like to listen to their latest tracks and download 
+them so that I can listen to them on the go
 
 ### Site Maps
 #### Desktop
+!(assets/wireframes/index.html.png "index.html page for desktop view")
+!(assets/wireframes/history.html.png "history.html page for desktop view")
+!(assets/wireframes/music.html.png "music.html page for desktop view")
+!(assets/wireframes/services.html.png "services.html page for desktop view")
+!(assets/wireframes/contact.html.png "contact.html page for desktop view")
 #### Mobile
-
-
-
+!(assets/wireframes/index.html.(Mobile).png "index.html page for mobile view")
+!(assets/wireframes/history.html.(Mobile).png "history.html page for mobile view")
+!(assets/wireframes/music.html.(Mobile).png "music.html page for mobile view")
+!(assets/wireframes/services.(Mobile).html.png "services.html page for mobile view")
+!(assets/wireframes/contact.(Mobile).html.png "contact.html page for mobile view")
 
 ## Features
 
