@@ -207,20 +207,38 @@ form submits with no error messages
 services page
 - on services.html - click on image for "weddings" and verify it brings you to 
 services page
-- on services.html - click on image for "christmas parties" and verify it brings you to 
-services page
-- on services.html - click on the link for more information for "weddings" and verify it brings you to 
-contact page
-- on services.html - click on the link for more information for "christmas parties" and verify it brings you to 
-contact page
-- click on the home link in the footer site map and verify that it brings you to the home page
+- on services.html - click on image for "christmas parties" and verify it brings 
+you to services page
+- on services.html - click on the link for more information for "weddings" and 
+verify it brings you to contact page
+- on services.html - click on the link for more information for "christmas 
+parties" and verify it brings you to contact page
+- click on the home link in the footer site map and verify that it brings you 
+to the home page
 
 ## Deployment
+
+
 
 ## Credits
 
 ### Content 
+- Concert dates for 'see us live' gotten from 
+https://www.monkees.com/article/monkees-2019-tour-dates
+- Font icons imported from Font Awesome
 
 ### Media
+- YouTube videos gotten from The Monkees official YouTube channel
+- Images and content provided by Code Institute
+- free for use christmas image found on
+http://www.picpedia.org/highway-signs/c/christmas.html
+- free for use wedding image found on 
+http://www.picpedia.org/highway-signs/w/wedding.html
+- free for use Background image found on 
+https://www.maxpixel.net/Decoration-Ornament-Floristry-Floral-Design-Flowers-455591
 
 ### Acknowledgments
+- I would like to acknowledge my mentor Anthony Ngene for all of his help and 
+advice with this project
+- I would also like to thank my friends and family for their testing help and 
+advice with this project
