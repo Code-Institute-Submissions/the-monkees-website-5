@@ -244,12 +244,12 @@ As the minimum screen size is to be 360 px, this was not seen as a major issue a
 can be amended in future updates. 
 
 ## Deployment
-This project was deployed to GitHub Pages using the following steps 
+This project was deployed to GitHub Pages at the address 
+https://aidan-stritch.github.io/the-monkees-website/ using the following steps 
 - create a GitHub account
 - create a new project on GitHub
 - copy the code for pushing to a GitHub repository and paste in the terminal of 
 your project on cloud9 (git remote add origin 'link')
-- master
 - to commit the code on cloud9 to GitHub
     - in the terminal, type "git add ." to add all new changes to the code to 
     staging area
