@@ -128,6 +128,9 @@ news
 - Balsamiq - this was used to create the wireframes in the design phase 
 
 ## Testing
+The following testing was done to ensure that the website had no bugs or layout 
+issues and that all links and media worked correctly. 
+
 1. Audio Files
 - click on the play button and verify that the song plays
 - click on the pause button and verify that the song pauses
@@ -216,11 +219,48 @@ parties" and verify it brings you to contact page
 - click on the home link in the footer site map and verify that it brings you 
 to the home page
 
+### Responsiveness
+This website has been designed to scale correctly to different screen sizes with 
+no issues on layout. 
+
+In order to ensure that the navigation bar was as responsive as possible, on Desktop
+the menu shows accross the top of the page while on mobile screens, the menu is
+broken into 4 rows; the first being for the home button, which is the most commonly
+used, the second and third rows being for the additional page buttons and the fourth
+row being for the social media links, which have been centered to allow the user 
+to see them clearly as the band wanted the social media links to be showcased. 
+
+Each page was altered slightly between mobile and desktop for its layout to ensure 
+that the user is getting the best UX possible, regardless of the screen size they
+are using. 
+
+### Bugs Found
+While many bugs have been found during the development phase, such as layout issues,
+font size issues, and links not working when commited to GitHub. These have all been
+fixed in the final product and there are no issues currently with the exception of 
+an invisible bar appearing on the right hand side if a screen is below 280px wide. 
+
+As the minimum screen size is to be 360 px, this was not seen as a major issue and
+can be amended in future updates. 
+
 ## Deployment
 This project was deployed to GitHub Pages using the following steps 
 - create a GitHub account
-- 
-
+- create a new project on GitHub
+- copy the code for pushing to a GitHub repository and paste in the terminal of 
+your project on cloud9 (git remote add origin 'link')
+- master
+- to commit the code on cloud9 to GitHub
+    - in the terminal, type "git add ." to add all new changes to the code to 
+    staging area
+    - next, type "git status" to see which files are ready to be commited
+    - commit these by typing "git commit -m" and adding a detailed description of 
+    the commit in ""
+    - next, push the code commit to GitHub Pages by typing "git push -u origin master"
+    - you will be prompted to add your login details, once this is done, the code
+    will be pushed to GitHub and you will see the results
+- this was done after every new feature or when code was changed to fix any bugs or 
+layout issues
 
 ## Credits
 
