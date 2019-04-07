@@ -86,15 +86,40 @@ them so that I can listen to them on the go
 
 ![mobile view music.html](/assets/wireframes/music.html.mobile.png "music.html page for mobile view")
 
-![mobile view services.html](/assets/wireframes/services.mobile.html.png "services.html page for mobile view")
+![mobile view services.html](/assets/wireframes/services.html.mobile.png "services.html page for mobile view")
 
-![mobile view contact.html](/assets/wireframes/contact.mobile.html.png "contact.html page for mobile view")
+![mobile view contact.html](/assets/wireframes/contact.html.mobile.png "contact.html page for mobile view")
 
 ## Features
 
 ### Existing Features
+1. The mailing list signup form - allows users to sign up to the Monkees mailing
+list by typing in their email address and clicking on "subscribe" button
+2. The audio media players - allow users to listen to the Monkees tracks and to
+download the songs by clicking on the audo player menu and choosing "download"
+3. The embedded videos and hosted video - allow users to watch the band playing 
+the music as well as listen by clicking the play button
+4. The site map - allows users to navigate the website from the footer if they get
+lost by clicking on the relavent page link
+5. Social media links - allow the user to go to an external social media channel 
+so that they can view more up to date information and follow the band for the 
+latest news by simply clicking on the icon 
+6. The history.html timeline - allows the users to see key moments in the bands 
+history by simply scrolling down and reading the points
+7. The "see us live" section on index.html - allows users to see upcoming concerts
+by checking the locations and dates to see when the Monkees will be playing near 
+them
+8. The contact us form - allows users to contact the band directly and choose 
+which areas they are interested in by clicking on the corresponding radio button
+by simply filling in the fields and clicking on the "submit" button
 
 ### Features Left To Be Implemented
+1. Link to the spotify page when its created
+2. Interactive world map of upcoming concerts
+3. Ticket sales section for upcoming concerts
+4. Merchandise page with online store
+5. Blog section with articles from the band relating to past triumphs and upcoming
+news
 
 ## Technologies Used
 
