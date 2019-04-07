@@ -122,9 +122,98 @@ by simply filling in the fields and clicking on the "submit" button
 news
 
 ## Technologies Used
+- HTML - this site uses HTML to instruct the browser how to interprit the code correctly and arrange the layout
+- CSS - this site uses CSS to aid in the style, and overall theme of the website
+- Bootstrap - this site uses Bootstrap elements to help design the framework of the site
+- Balsamiq - this was used to create the wireframes in the design phase 
 
 ## Testing
+1. Audio Files
+- click on the play button and verify that the song plays
+- click on the pause button and verify that the song pauses
+- click on the menu link and download and verify that the song downloads correctly
+- click on the progress bar to change the timing position of the song and verify 
+that the song plays correctly
+- mute the volume and verify that the volume mutes
+- change the volume to lowest setting and verify that the song cannot be heard
 
+2. Videos
+- click on the play button and verify that the video plays
+- click on the pause button and verify that the video pauses
+- click on the menu link and download and verify that the video downloads correctly
+- click on the progress bar to change the timing position of the video and verify 
+that the video plays correctly
+- mute the volume and verify that the volume mutes
+- change the volume to lowest setting and verify that the video cannot be heard
+- make the video full screen and then back to regular size and verify that there 
+are no issues
+
+3. Contact Form
+- try to submit with all fields blank and verify that an error message regarding 
+the required fields is shown
+- fill in all fields, but have name field blank and submit and verify that an 
+error message regarding the required fields is shown
+- fill in all fields, but have email address field blank and submit and verify 
+that an error message regarding the required fields is shown
+- fill in all fields, but have email address field without "@" symbol and submit 
+and verify that an error message regarding the required fields is shown
+- fill in all fields, have email address field with "@" symbol but without ".com" 
+and submit and verify that an error message regarding the required fields is shown
+- fill in all fields correctly, but change radio button selection to "other" and 
+submit and verify the form is successful
+- fill in all fields, but have "give us some specific details" field blank and 
+submit and verify that an error message regarding the required fields is shown
+
+4. Social Media
+- click on Facebook icon in NAVBAR and verify that the correct page opens in a new tab
+- click on Twitter icon in NAVBAR and verify that the correct page opens in a new tab
+- click on YouTube icon in NAVBAR and verify that the correct page opens in a new tab
+- click on Facebook icon in Footer and verify that the correct page opens in a new tab
+- click on Twitter icon in Footer and verify that the correct page opens in a new tab
+- click on YouTube icon in Footer and verify that the correct page opens in a new tab
+
+5. Mailing List
+- In header mailing list form - leave email address field blank and click 
+"subscribe" and verify that an error message regarding the required fields is shown
+- In header mailing list form - enter email address, but without "@" symbol and 
+click "subscribe" and verify that an error message regarding the required fields 
+is shown
+- In header mailing list form - enter email address with "@" symbol but without 
+".com" and click "subscribe" and verify that an error message regarding the 
+required fields is shown
+- In header mailing list form - enter all details correctly and verify that the 
+form submits with no error messages 
+
+- In footer mailing list form - leave email address field blank and click 
+"subscribe" and verify that an error message regarding the required fields is shown
+- In footer mailing list form - enter email address, but without "@" symbol and 
+click "subscribe" and verify that an error message regarding 
+the required fields is shown
+- In footer mailing list form - enter email address with "@" symbol but without 
+".com" and click "subscribe" and verify that an error message regarding the 
+required fields is shown
+- In footer mailing list form - enter all details correctly and verify that the 
+form submits with no error messages
+
+6. Responsiveness
+- view site on "Galaxy S5" sizeand verify that there are no viewing issues
+- view site on "iPad" sizeand verify that there are no viewing issues
+- view site on "iPad Pro" sizeand verify that there are no viewing issues
+- view site on "iPhone 5/SE" size and verify that there are no viewing issues
+- view site on "desktop" and verify that there are no viewing issues
+
+7. Page Links
+- on index.html - click on services image and verify that it brings you to 
+services page
+- on services.html - click on image for "weddings" and verify it brings you to 
+services page
+- on services.html - click on image for "christmas parties" and verify it brings you to 
+services page
+- on services.html - click on the link for more information for "weddings" and verify it brings you to 
+contact page
+- on services.html - click on the link for more information for "christmas parties" and verify it brings you to 
+contact page
+- click on the home link in the footer site map and verify that it brings you to the home page
 
 ## Deployment
 
